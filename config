@@ -10,7 +10,7 @@
     ["hyprland/window"],
 
     "modules-right": [
-     "custom/packages", "cpu", "memory", "disk", "pulseaudio", "clock", "tray",],
+     "pulseaudio", "clock", "tray",],
 
 	"clock": {
         "format": "{: %I:%M %p}",
