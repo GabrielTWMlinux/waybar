@@ -1,7 +1,7 @@
 {
 	"layer": "top",
 	"position": "top",
-	"height": 18,
+	"height": 12,
 
    "modules-left": 
     ["hyprland/workspaces", "hyprland/mode"],
@@ -10,10 +10,14 @@
     ["hyprland/window"],
 
     "modules-right": [
-     "pulseaudio", "clock", "tray",],
+     "custom/update" , "pulseaudio", "clock", "tray"],
 
+        "custom/update": {
+	"format": "{}",
+	"exec": "$HOME/.config/Scripts/dwmblocks/Void-Updates",
+	},
 	"clock": {
-        "format": "{: %I:%M %p}",
+        "format": "{:  %d %b, %Y, %a - %R}",
 		"tooltip": false
 	},
 	"hyprland/window": {
@@ -39,15 +43,15 @@
 		"interval": 45
 	},
 	"tray": {
-		//"icon-size": 24,
+		//"icon-size": 12,
 		"spacing": 12
 	},
     "pulseaudio": {
-        "format": "{icon} {volume}% {format_source}",
+        "format": "{icon} {volume}%   {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": " {volume}%",
+        "format-source": "   {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -56,7 +60,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
     },
