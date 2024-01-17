@@ -2,24 +2,24 @@
  * General 
  * ----------------------------------------------------- */
 * {
-	font-size: 13px;
+	font-size: 12px;
 	font-family: Font Awesome, sans-serif;
         font-weight: normal;
 }
 
 window#waybar {
-	background: #0d0d12;
-	opacity: 0.7;
+	background: #111111;
+	opacity: 0.8;
     border-bottom: 0px solid rgba(26,27,38,0);
     border-radius: 0px;
-	color: #a7b3bc;
+	color: #ffffff;
 }
 
 /* -----------------------------------------------------
  * Workspaces 
  * ----------------------------------------------------- */
 #workspaces {
-    background: #343b58;
+    background: #24283b;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px;
     border-radius: 5px;
@@ -30,15 +30,15 @@ window#waybar {
 #workspaces button {
     padding: 0px 0px;
     margin: 2px 2px;
-    color: #0d0d12;
-    background-color: #343b58;
+    color: #ffffff;
+    background-color: #24283b;
     opacity: 0.5;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.active {
     color: #ffffff;
-    background: #475078;
+    background: #393d4e;
     border-radius: 7px;
     min-width: 30px;
     transition: all 0.3s ease-in-out;
@@ -47,7 +47,7 @@ window#waybar {
 
 #workspaces button:hover {
     color: #ffffff;
-    background: #475078;
+    background: #393d4e;
     border-radius: 7px;
     opacity: 1.0;
 }
@@ -70,8 +70,8 @@ tooltip label {
  * Window
  * ----------------------------------------------------- */
 #window {
-    color: #a7b3bc;
-    background: #0d0d12;
+    color: #7a7e97;
+    background: #111111;
     border-radius: 5px;
     margin: 2px;
     padding: 1px 10px;
@@ -86,11 +86,11 @@ tooltip label {
 }
 
 #clock {
-    color: #a7b3bc;
-    background: #0d0d12;
+    color: #ffffff;
+    background: #111111;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 
 #cpu {
@@ -110,26 +110,35 @@ tooltip label {
 }
 
 custom#update {
-    color: #A7B3BC;
-    background: #0d0d12;
+    color: #ffffff;
+    background: #111111;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
+
+custom#weather {
+    color: #ffffff;
+    background: #111111;
+    border-radius: 5px;
+    margin: 1px 4px 1px 1px;
+    padding: 0px 5px;
+}
+
 
 #tray {
     color: #ffffff;
-    background: #0d0d12;
+    background: #111111;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 
 #pulseaudio {
-    color: #a7b3bc;
-    background: #0d0d12;
+    color: #ffffff;
+    background: #111111;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 

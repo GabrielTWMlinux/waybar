@@ -1,21 +1,29 @@
 {
 	"layer": "top",
 	"position": "top",
-	"height": 12,
+	"height": 10,
 
    "modules-left": 
-    ["hyprland/workspaces", "hyprland/mode"],
+    ["sway/workspaces", "hyprland/workspaces", "hyprland/mode"],
 
     "modules-center":
     ["hyprland/window"],
 
     "modules-right": [
-     "custom/update" , "pulseaudio", "clock", "tray"],
+     "custom/update", "custom/weather" , "pulseaudio", "clock", "tray"],
+
+        "custom/weather": {
+	"format": "{}",
+	"exec": "$HOME/.config/Scripts/hyprland/weather",
+	"interval": 1800,
+	},
 
         "custom/update": {
 	"format": "{}",
-	"exec": "$HOME/.config/Scripts/dwmblocks/Void-Updates",
+	"exec": "$HOME/.config/Scripts/hyprland/Void-Updates",
+	"interval": 3600,
 	},
+
 	"clock": {
         "format": "{:  %d %b, %Y, %a - %R}",
 		"tooltip": false
