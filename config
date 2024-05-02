@@ -1,10 +1,10 @@
 {
 	"layer": "top",
 	"position": "top",
-	"height": 10,
+	"height": 27,
 
-   "modules-left": 
-    ["sway/workspaces", "hyprland/workspaces", "hyprland/mode"],
+   "modules-left": [
+     "hyprland/workspaces", "hyprland/mode"],
 
     "modules-center":
     ["hyprland/window"],
@@ -21,11 +21,18 @@
         "custom/update": {
 	"format": "{}",
 	"exec": "$HOME/.config/Scripts/hyprland/Void-Updates",
-	"interval": 3600,
+	"interval": 1800,
 	},
+	
+	"hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+     },
+
 
 	"clock": {
-        "format": "{:  %d %b, %Y, %a - %R}",
+        "format": "  {:%d %b, %Y, %a - %R}",
 		"tooltip": false
 	},
 	"hyprland/window": {
