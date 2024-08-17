@@ -2,17 +2,17 @@
  * General 
  * ----------------------------------------------------- */
 * {
-	min-height: 21px;
+	min-height: 20px;
 	font-size: 12px;
 	font-family: JetBrains Mono Nerd Font;
         font-weight: normal;
 }
 
 window#waybar {
-	background: #1a1b26;
+	background: #1d2026;
 	opacity: 1;
-    border-bottom: 0px solid rgba(26,27,38,0);
-    border-radius: 0px;
+        border-bottom: 0px solid rgba(26,27,38,0);
+        border-radius: 0px;
 	color: #ffffff;
 }
 
@@ -20,7 +20,7 @@ window#waybar {
  * Workspaces 
  * ----------------------------------------------------- */
 #workspaces {
-    background: #282e45;
+    background: #282c34;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px;
     border-radius: 5px;
@@ -32,15 +32,15 @@ window#waybar {
     padding: 0px 0px;
     margin: 2px 2px;
     color: #ffffff;
-    background-color: #282e45;
+    background-color: #282c34;
     opacity: 0.5;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.active {
     color: #ffffff;
-    background: #414868;
-    border-radius: 7px;
+    background: #3e4451;
+    border-radius: 4px;
     min-width: 30px;
     transition: all 0.3s ease-in-out;
     opacity: 1.0;
@@ -48,7 +48,7 @@ window#waybar {
 
 #workspaces button:hover {
     color: #ffffff;
-    background: #414868;
+    background: #3e4451;
     border-radius: 7px;
     opacity: 1.0;
 }
@@ -72,15 +72,15 @@ tooltip label {
  * ----------------------------------------------------- */
 #window {
     color: #FFFFFF;
-    background: #1a1b26;
+    background: #1d2026;
     border-radius: 5px;
-    margin: 2px;
+    margin: 1px 5px 1px 5px;
     padding: 1px 10px;
 }
 
 #memory {
     color: #ffffff;
-    background: #475078;
+    background: #1d2026;
     border-radius: 5px;
     margin: 5px;
     padding: 2px 10px;
@@ -88,7 +88,7 @@ tooltip label {
 
 #clock {
     color: #ffffff;
-    background: #1a1b26;
+    background: #1d2026;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
     padding: 0px 5px;
@@ -112,7 +112,7 @@ tooltip label {
 
 custom#update {
     color: #ffffff;
-    background: #1a1b26;
+    background: #282c34;
     border-radius: 5px;
     margin: 1px 0px 0px 1px;
     padding: 0px 5px;
@@ -120,7 +120,7 @@ custom#update {
 
 custom#weather {
     color: #ffffff;
-    background: #19191f;
+    background: #282c34;
     border-radius: 5px;
     margin: 1px 0px 0px 1px;
     padding: 0px 5px;
@@ -129,7 +129,7 @@ custom#weather {
 
 #tray {
     color: #ffffff;
-    background: #19191f;
+    background: #1d2026;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
     padding: 0px 5px;
@@ -137,7 +137,7 @@ custom#weather {
 
 #pulseaudio {
     color: #ffffff;
-    background: #1a1b26;
+    background: #1d2026;
     border-radius: 5px;
     margin: 1px 4px 1px 1px;
     padding: 0px 5px;

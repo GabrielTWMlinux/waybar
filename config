@@ -4,13 +4,11 @@
 	"height": 27,
 
    "modules-left": [
-     "hyprland/workspaces", "hyprland/mode"],
+     "hyprland/workspaces", "hyprland/mode", "hyprland/window"],
 
-    "modules-center":
-    ["hyprland/window"],
 
     "modules-right": [
-     "custom/update", "custom/weather" , "pulseaudio", "clock", "tray"],
+     "custom/update", "pulseaudio", "clock", "tray"],
 
         "custom/weather": {
 	"format": "{}",
@@ -28,6 +26,20 @@
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
+	 "format": "  {icon}  ",
+         //"format":"{icon}",
+         "format-icons": {
+             "1": "one",
+             "2": "two",
+             "3": "three",
+             "4": "four",
+             "5": "five",
+             "6": "six",
+             "7": "sev",
+             "8": "eigh",
+             "9": "nine",
+             "10": "ten",
+     },
      },
 
 
